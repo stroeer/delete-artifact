@@ -22,7 +22,7 @@
     "dependencies": {
         "@actions/core": "^1.10.0",
         "@actions/github": "^6.0.0",
-        "minimatch": "^9.0.3"
+        "minimatch": "^10.2.1"
     },
     "devDependencies": {
         "@types/minimatch": "^5.1.2",
