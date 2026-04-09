@@ -1,0 +1,25 @@
+version: 2
+updates:
+  # GitHub Actions ecosystem
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 8
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  # npm ecosystem
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 8
+    groups:
+      npm:
+        patterns:
+          - "*"
